@@ -4,7 +4,7 @@ DarkDoc is a dark-mode document reader and formatter that converts PDFs, EPUBs, 
 
 It focuses on readability and structure, not just file conversion.
 
-✨ Features
+✨ Features:
 
 📄 Upload PDF and EPUB files
 
