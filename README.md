@@ -1,7 +1,6 @@
 DarkDoc
 
 DarkDoc is a dark-mode document reader and formatter that converts PDFs, EPUBs, and pasted text (such as audiobook or YouTube transcripts) into a clean, book-style reading experience.
-
 It focuses on readability and structure, not just file conversion.
 
 ✨ Features:
