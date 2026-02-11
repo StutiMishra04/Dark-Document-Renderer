@@ -1,53 +1,125 @@
 DarkDoc
 
-DarkDoc is a dark-mode document reader and formatter that converts PDFs, EPUBs, and pasted text (such as audiobook or YouTube transcripts) into a clean, book-style reading experience.
-It focuses on readability and structure, not just file conversion.
+DarkDoc is a dark-mode document reader and formatter that converts PDFs, EPUBs, and raw text (such as audiobook or YouTube transcripts) into a structured, book-style reading experience.
+It prioritizes readability, structure correction, and consistent formatting rather than simple file conversion.
 
-✨ Features:
+Features
 
-📄 Upload PDF and EPUB files
+Upload PDF and EPUB files
+Paste raw transcripts or text
+Automatic dark-mode formatting
 
-✍️ Paste raw text / transcripts
+Chapter-aware pagination
 
-🌙 Automatic dark-mode formatting
-
-📚 Chapter-aware pagination
-
-🧠 Fixes common extraction issues:
-
+Fixes common extraction issues:
 Broken words
-
-Bad line breaks
-
+Incorrect line breaks
 Dialogue collisions
-
 Quote inconsistencies
 
-📖 Book-style page navigation
+Book-style page navigation
+Export formatted output as a dark-mode PDF
 
-⬇️ Download as a dark-mode PDF
-
-🏗️ Tech Stack
-
-Backend: FastAPI (Python)
-
-Frontend: React
-
-PDF Extraction: pdfplumber
-
-EPUB Parsing: ebooklib + BeautifulSoup
-
-PDF Generation: ReportLab
-
-🔄 Processing Pipeline
-
-All input types follow the same formatting pipeline:
-
+Architecture Overview
 Input (PDF / EPUB / Text)
-→ Clean & normalize text
-→ Detect chapters & paragraphs
-→ Format into logical pages
-→ Display in reader / export PDF
+        ↓
+Text Cleaning & Normalization
+        ↓
+Chapter & Paragraph Detection
+        ↓
+Structural Correction
+        ↓
+Pagination Engine
+        ↓
+Reader View / PDF Export
+
+Tech Stack
+
+Backend
+
+FastAPI (Python)
+
+Frontend
+
+React
+
+PDF Extraction
+
+pdfplumber
+
+EPUB Parsing
+
+ebooklib
+
+BeautifulSoup
+
+PDF Generation
+
+ReportLab
+
+Project Structure
+darkdoc/
+│
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── routes/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   └── models/
+│   ├── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   └── styles/
+│   ├── package.json
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+
+Installation
+Clone the repository
+git clone https://github.com/your-username/darkdoc.git
+cd darkdoc
+
+Backend setup
+cd backend
+python -m venv venv
+source venv/bin/activate     # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
 
 
-This ensures consistent formatting across all sources.
+Backend runs at:
+http://127.0.0.1:8000
+
+Frontend setup
+cd frontend
+npm install
+npm start
+
+
+Frontend runs at:
+http://localhost:3000
+
+API Endpoints
+Method	Endpoint	Description
+POST	/upload/pdf	Upload PDF file
+POST	/upload/epub	Upload EPUB file
+POST	/upload/text	Submit raw text
+GET	/export/pdf	Download formatted PDF
+Development Notes
+
+Enable CORS in FastAPI for frontend integration.
+
+Keep formatting logic modular inside services/.
+
+Use environment variables for configuration.
+
+License
+
+MIT License.
