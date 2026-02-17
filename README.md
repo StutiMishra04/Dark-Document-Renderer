@@ -21,17 +21,17 @@ Book-style page navigation
 Export formatted output as a dark-mode PDF
 
 Architecture Overview
-Input (PDF / EPUB / Text)
+-> Input (PDF / EPUB / Text)
         ↓
-Text Cleaning & Normalization
+-> Text Cleaning & Normalization
         ↓
-Chapter & Paragraph Detection
+-> Chapter & Paragraph Detection
         ↓
-Structural Correction
+-> Structural Correction
         ↓
-Pagination Engine
+-> Pagination Engine
         ↓
-Reader View / PDF Export
+-> Reader View / PDF Export
 
 Tech Stack
 
