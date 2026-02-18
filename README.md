@@ -21,7 +21,7 @@ Book-style page navigation
 Export formatted output as a dark-mode PDF
 
 Architecture Overview
--> Input (PDF / EPUB / Text)
+<div>-> Input (PDF / EPUB / Text)</div>
         ↓
 -> Text Cleaning & Normalization
         ↓
