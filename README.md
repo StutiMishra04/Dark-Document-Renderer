@@ -23,15 +23,15 @@ Export formatted output as a dark-mode PDF
 Architecture Overview
 <div>-> Input (PDF / EPUB / Text)</div>
         ↓
--> Text Cleaning & Normalization
+<div>-> Text Cleaning & Normalization</div>
         ↓
--> Chapter & Paragraph Detection
+<div>-> Chapter & Paragraph Detection</div>
         ↓
--> Structural Correction
+<div>-> Structural Correction</div>
         ↓
--> Pagination Engine
+<div>-> Pagination Engine</div>
         ↓
--> Reader View / PDF Export
+<div>-> Reader View / PDF Export</div>
 
 Tech Stack
 
