@@ -44,28 +44,28 @@ PDF Generation
 ReportLab
 
 Project Structure
-darkdoc/
-│
-├── backend/
-│   ├── app/
-│   │   ├── main.py
-│   │   ├── routes/
-│   │   ├── services/
-│   │   ├── utils/
-│   │   └── models/
-│   ├── requirements.txt
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── hooks/
-│   │   └── styles/
-│   ├── package.json
-│
-├── .gitignore
-├── LICENSE
-└── README.md
+<div>darkdoc/</div>
+<div>│</div>
+<div>├── backend/</div>
+<div>│   ├── app/</div>
+<div>│   │   ├── main.py</div>
+<div>│   │   ├── routes/</div>
+<div>│   │   ├── services/</div>
+<div>│   │   ├── utils/</div>
+<div>│   │   └── models/</div>
+<div>│   ├── requirements.txt</div>
+<div>│</div>
+<div>├── frontend/</div>
+<div>│   ├── src/</div>
+<div>│   │   ├── components/</div>
+<div>│   │   ├── pages/</div>
+<div>│   │   ├── hooks/</div>
+<div>│   │   └── styles/</div>
+<div>│   ├── package.json</div>
+<div>│</div>
+<div>├── .gitignore</div>
+<div>├── LICENSE</div>
+<div>└── README.md</div>
 
 Installation
 Clone the repository
