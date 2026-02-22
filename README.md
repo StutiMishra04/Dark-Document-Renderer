@@ -21,40 +21,26 @@ Book-style page navigation
 Export formatted output as a dark-mode PDF
 
 Architecture Overview
-<div>-> Input (PDF / EPUB / Text)</div>
-        ↓
-<div>-> Text Cleaning & Normalization</div>
-        ↓
-<div>-> Chapter & Paragraph Detection</div>
-        ↓
-<div>-> Structural Correction</div>
-        ↓
-<div>-> Pagination Engine</div>
-        ↓
-<div>-> Reader View / PDF Export</div>
+<div>- Input (PDF / EPUB / Text)</div>
+<div>- Text Cleaning & Normalization</div>
+<div>- Chapter & Paragraph Detection</div>
+<div>- Structural Correction</div>
+<div>- Pagination Engine</div>
+<div>- Reader View / PDF Export</div>
 
 Tech Stack
 
-Backend
+<b>Backend</b>
 
 FastAPI (Python)
-
 Frontend
-
 React
-
 PDF Extraction
-
 pdfplumber
-
 EPUB Parsing
-
 ebooklib
-
 BeautifulSoup
-
 PDF Generation
-
 ReportLab
 
 Project Structure
