@@ -5,7 +5,7 @@ It prioritizes readability, structure correction, and consistent formatting rath
 
 <h2>Features</h2>
 
-<p>Upload PDF and EPUB files</p>
+<link>Upload PDF and EPUB files</link>
 <p>Paste raw transcripts or text</p>
 <p>Automatic dark-mode formatting</p>
 
