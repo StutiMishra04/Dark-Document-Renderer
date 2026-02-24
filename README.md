@@ -5,7 +5,7 @@ It prioritizes readability, structure correction, and consistent formatting rath
 
 <h2>Features</h2>
 
-<link>Upload PDF and EPUB files</link>
+<p>Upload PDF and EPUB files</p>
 <p>Paste raw transcripts or text</p>
 <p>Automatic dark-mode formatting</p>
 
@@ -20,7 +20,7 @@ It prioritizes readability, structure correction, and consistent formatting rath
 Book-style page navigation
 Export formatted output as a dark-mode PDF
 
-Architecture Overview
+<h2>Architecture Overview</h2>
 <div>- Input (PDF / EPUB / Text)</div>
 <div>- Text Cleaning & Normalization</div>
 <div>- Chapter & Paragraph Detection</div>
@@ -28,7 +28,7 @@ Architecture Overview
 <div>- Pagination Engine</div>
 <div>- Reader View / PDF Export</div>
 
-Tech Stack
+<h2>Tech Stack</h2>
 
 <b>Backend</b>
 
@@ -43,7 +43,7 @@ BeautifulSoup
 PDF Generation
 ReportLab
 
-Project Structure
+<h2>Project Structure</h2>
 <div>darkdoc/</div>
 <div>│</div>
 <div>├── backend/</div>
@@ -66,43 +66,6 @@ Project Structure
 <div>├── .gitignore</div>
 <div>├── LICENSE</div>
 <div>└── README.md</div>
-
-Installation
-Clone the repository
-git clone https://github.com/your-username/darkdoc.git
-cd darkdoc
-
-Backend setup
-cd backend
-python -m venv venv
-source venv/bin/activate     # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-
-
-Backend runs at:
-http://127.0.0.1:8000
-
-Frontend setup
-cd frontend
-npm install
-npm start
-
-
-Frontend runs at:
-http://localhost:3000
-
-API Endpoints
-Method	Endpoint	Description
-POST	/upload/pdf	Upload PDF file
-POST	/upload/epub	Upload EPUB file
-POST	/upload/text	Submit raw text
-GET	/export/pdf	Download formatted PDF
-Development Notes
-
-Enable CORS in FastAPI for frontend integration.
-
-Keep formatting logic modular inside services/.
 
 Use environment variables for configuration.
 
