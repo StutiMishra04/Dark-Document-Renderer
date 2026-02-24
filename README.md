@@ -3,19 +3,19 @@
 <p>DarkDoc is a dark-mode document reader and formatter that converts PDFs, EPUBs, and raw text (such as audiobook or YouTube transcripts) into a structured, book-style reading experience.
 It prioritizes readability, structure correction, and consistent formatting rather than simple file conversion.</p>
 
-<b>Features</b>
+<h2>Features</h2>
 
 <p>Upload PDF and EPUB files</p>
 <p>Paste raw transcripts or text</p>
 <p>Automatic dark-mode formatting</p>
 
-Chapter-aware pagination
+<p>Chapter-aware pagination</p>
 
-Fixes common extraction issues:
-Broken words
-Incorrect line breaks
-Dialogue collisions
-Quote inconsistencies
+<p>Fixes common extraction issues:</p>
+<div>- Broken words</div>
+<div>- Incorrect line breaks</div>
+<div>- Dialogue collisions</div>
+<div>- Quote inconsistencies</div>
 
 Book-style page navigation
 Export formatted output as a dark-mode PDF
