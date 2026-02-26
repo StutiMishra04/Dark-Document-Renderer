@@ -11,7 +11,7 @@ It prioritizes readability, structure correction, and consistent formatting rath
 
 <p>Chapter-aware pagination</p>
 
-<p>Fixes common extraction issues:</p>
+<h3>Fixes common extraction issues:</h3>
 <div>- Broken words</div>
 <div>- Incorrect line breaks</div>
 <div>- Dialogue collisions</div>
