@@ -1,4 +1,4 @@
-<h1>DarkDoc</h1>
+<h1>DarkDoc (डार्क डॉक्)</h1>
 
 <p>DarkDoc is a dark-mode document reader and formatter that converts PDFs, EPUBs, and raw text (such as audiobook or YouTube transcripts) into a structured, book-style reading experience.
 It prioritizes readability, structure correction, and consistent formatting rather than simple file conversion.</p>
